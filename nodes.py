@@ -1,6 +1,14 @@
 import math
 import matplotlib
 
+def RelU(input):
+    if input > 0:
+        return input
+    else:
+        return 0
+
+
+
 class Graph:
     def __init__(self, name):
         self.name = name
